@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUpRight, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -26,7 +26,7 @@ const ContactSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="mt-16 grid md:grid-cols-3 gap-6"
+          className="mt-16 grid md:grid-cols-4 gap-6"
         >
           <a
             href="mailto:nethushiperera03@gmail.com"
@@ -48,6 +48,20 @@ const ContactSection = () => {
             <p className="text-xs font-mono text-muted-foreground mb-1">Phone</p>
             <p className="text-sm text-foreground group-hover:text-gradient transition-all flex items-center gap-1">
               +94 78 608 0732
+              <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+            </p>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/nethushi-perera-b04763231/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group glass p-6 hover:border-muted-foreground/30 transition-all"
+          >
+            <Linkedin className="w-5 h-5 text-muted-foreground mb-4" />
+            <p className="text-xs font-mono text-muted-foreground mb-1">LinkedIn</p>
+            <p className="text-sm text-foreground group-hover:text-gradient transition-all flex items-center gap-1">
+              View profile
               <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
             </p>
           </a>
