@@ -44,14 +44,14 @@ const projects = [
 
 const ProjectsSection = () => {
 	return (
-		<section id="projects" className="py-32 px-6 border-t border-border">
+		<section id="projects" className="py-20 md:py-32 px-6 border-t border-border">
 			<div className="max-w-5xl mx-auto">
 				<motion.div
 					initial={{ opacity: 0, y: 40 }}
 					whileInView={{ opacity: 1, y: 0 }}
 					viewport={{ once: true }}
 					transition={{ duration: 0.8 }}
-					className="flex items-end justify-between mb-20"
+					className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-16 md:mb-20"
 				>
 					<div>
 						<p className="font-mono text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4">
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
 							<span className="text-muted-foreground">work</span>
 						</h2>
 					</div>
-					<p className="hidden md:block text-sm text-muted-foreground max-w-xs text-right">
+					<p className="text-sm text-muted-foreground max-w-xs md:text-right">
 						A collection of projects that showcase my skills in full-stack
 						development.
 					</p>
