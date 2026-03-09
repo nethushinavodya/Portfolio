@@ -25,7 +25,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
             className="inline-flex items-center gap-2 border border-border px-4 py-1.5 mb-8"
           >
-            <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-status-online animate-pulse" />
             <span className="font-mono text-xs tracking-wider text-muted-foreground uppercase">
               Available for work
             </span>
