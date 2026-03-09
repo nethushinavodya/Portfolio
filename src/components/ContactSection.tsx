@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, ArrowUpRight, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-32 px-6 border-t border-border">
+    <section id="contact" className="py-20 md:py-32 px-6 border-t border-border">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -14,7 +14,7 @@ const ContactSection = () => {
           <p className="font-mono text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4">
             04 — Contact
           </p>
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-6">
             Let's build
             <br />
             <span className="text-muted-foreground">something great</span>
@@ -26,7 +26,7 @@ const ContactSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="mt-16 grid md:grid-cols-4 gap-6"
+          className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6"
         >
           <a
             href="mailto:nethushiperera03@gmail.com"
