@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile.jpeg";
 
 const HeroSection = () => {
   return (
@@ -91,10 +91,10 @@ const HeroSection = () => {
             <a href="mailto:nethushiperera03@gmail.com" className="p-2 border border-border text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
               <Mail className="w-4 h-4" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="p-2 border border-border text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
+            <a href="https://github.com/nethushinavodya" target="_blank" rel="noreferrer" className="p-2 border border-border text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
               <Github className="w-4 h-4" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-2 border border-border text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
+            <a href="https://www.linkedin.com/in/nethushi-perera-b04763231/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer" className="p-2 border border-border text-muted-foreground hover:text-foreground hover:border-foreground transition-colors">
               <Linkedin className="w-4 h-4" />
             </a>
           </motion.div>
